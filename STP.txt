@@ -22,8 +22,8 @@ switch4>switch3への経路
 ルートパスコスト小さいものがルートポートになる
 switch1 F0/2 switch2 F0/1 switch4 E0/2がRPになる
 
-RPの対向ポートがDPになる
-switch3 E0/1 switch3 E0/2 switch1 F0/1がDPになる
+RPの対向ポートがDPになる又各コリジョンドメイン間に指定ポートが一つ必要なので
+switch3 E0/1 switch3 E0/2 switch1 F0/1　switch4 E0/1がDPになる
 
 余ったところがBPになる
-switch2 F0/2 switch4 E0/1がBP
+switch2 F0/2がBP
